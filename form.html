@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <div class="container">
+    <form action="new.html">
+        <h1 class = "main_heading1">Payment forms </h1>
+        <hr>
+        <h2 class = "main_heading">Contact Information </h2>
+        <p>Required field followed by *</p>
+        <p>Name:* <input type="text" name="name " id="name" placeholder="devansh bhargav" required></p>
+        <fieldset>
+            <legend>gender*</legend>
+        <p>
+            Male: <input type="radio" name="gender" id="Male" required>
+            Female: <input type="radio" name="gender" id="Female" required>
+        </p>
+    </fieldset>
+    <p>Address:* <textarea name="Address" id="Address" cols="100" rows="2" require></textarea></p>
+    <p>Email:* <input type="email" name="email" id="email" placeholder=" bhargav@gmail.com" required></p>
+    <p>pincode:* <input type="number" name="pincode" id="pincode" required></p>
+    <p>mobile number:* <input type="number" name="mobile number " id="mobile number " required> </p>
+    <hr>
+    <h2 class = "main_heading">Payment Information</h2>
+    <img src="img/mastercard-credit-card-visa-symbol-logo-close-up-circle-orange-red-PM079F.jpg" width= "10%"alt="">
+    
+    <img src="img/Visa-Logo-1977.jpg" width= "10%"alt="">
+    <img src="img/06cd1a3c_rupay-logo.png" width="10%" alt="">
+    <p>
+        cardtype:* <select name="cardtype" id="cardtype" required>
+            <option value="">----select a cardtype----</option>
+            <option value="visa">visa</option>
+            <option value="rupay">rupay</option>
+            <option value="mastercard">mastercard</option>
+        </select>
+    </p>
+    <p>Card Number :* <input type="number" name="card number" id="card number"placeholder="1111-2222-3333-4444" required></p>
+    <p>Expiration Date:* <input type="date" name="Expiration Date" id="Expiration Date" required></p>
+    <p>CVV:* <input type="password" name="CVV" id="CVV" required></p>
+    <input type="submit" value="PAY NOW">
+
+
+    </form>
+</div>
+</body>
+</html>
